@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace csharp {
-    class ItemResources {
+    public class ItemResources {
         private static readonly Dictionary<string, Action<Item>> ItemDelegates = new Dictionary<string, Action<Item>>( );
 
         static ItemResources( ) {
